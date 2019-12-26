@@ -54,8 +54,6 @@ $(document).ready(function(){
         }
         
     }
-    
-    
 
 
 
@@ -73,5 +71,19 @@ function changeLang(lange){
     console.log(url);
     
     window.open(url, '_self');
+}
+
+
+//display button to up
+ 
+window.onscroll = function(){
+        
+    if(scrollY > 1000){
+        $('#goUp').addClass('active'); 
+    }
+
+    if(scrollY < 1000){
+        $('#goUp').removeClass('active'); 
+    }
 }
 
