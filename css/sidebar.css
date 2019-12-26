@@ -1,0 +1,49 @@
+.sidebar{
+    background-color: rgba(49, 57, 60, 1);
+    height: 100vh;
+    position: static;
+    color: rgba(255, 110, 0, 1);
+}
+
+.col-img{
+    padding: 1rem!important;
+}
+
+.sidebar h4, .sidebar h3, .sidebar h2, .sidebar a{
+    text-align: center;
+    padding: .2vh 0vw;
+    color: rgba(255, 110, 0, 1);
+    background-color: transparent;
+    transition: .8s ease;
+}
+
+.sidebar h3:hover{
+    color: rgba(49, 57, 60, 1);
+    background-color: rgba(255, 110, 0, 1);
+}
+
+.sel{
+    color: rgba(49, 57, 60, 1);
+    background-color: rgba(255, 110, 0, 1);
+}
+
+.sel:hover{
+    color: rgba(255, 110, 0, 1);
+    background-color: rgb(11, 13, 10);
+}
+
+.lang{
+    position: absolute;
+    bottom: 0;
+}
+
+.sidenav.sidenav-fixed {
+    position: fixed;
+}
+
+
+
+.dropdown-content, input.select-dropdown{
+    background-color: rgb(11, 13, 10);
+    color: rgba(255, 110, 0, 1);
+}

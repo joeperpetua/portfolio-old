@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Quicksand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Poppins;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+h1{
+    font-size: 5vh;
+    margin: 2.8rem 1rem 1.68rem 1rem;
+}
+
+h2{
+    font-size: 4vh;
+}
+
+h3{
+    font-size: 3vh;
+}
+
+h4{
+    font-size: 2vh;
+}
+
+.land{
+    margin: 0;
+}
+
+.col .row{
+    margin: 0;
+    padding: 0 2rem;;
+}
+
+.btn.disabled{
+    cursor: no-drop;
+}
+
+
+@media only screen and (max-width: 992px){
+    .sidenav.sidenav-fixed {
+        -webkit-transform: none;
+        transform: none;
+        position: unset;
+    }
+
+    img.responsive-img{
+        max-width: 75%;
+        margin: 0 12.5%;
+    }
+
+    .content{
+        padding: 0!important;
+    }
+
+    .parallax-container{
+        height: 50vw;
+    }
+
+    .modal{
+        width: 75vw;
+    }
+
+    .modal a{
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) and (orientation: landscape){
+    .sidebar{
+        height: fit-content;
+    }
+}
+
+
