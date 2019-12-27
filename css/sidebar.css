@@ -3,6 +3,7 @@
     height: 100vh;
     position: static;
     color: rgba(255, 110, 0, 1);
+    overflow-y: hidden;
 }
 
 .col-img{
