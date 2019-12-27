@@ -1,5 +1,5 @@
 .content .col{
-    margin: 0 0 3rem 0!important;
+    margin: 0 0 3rem 0;
 }
 
 .content{
@@ -41,3 +41,8 @@ textarea{
 .modal a{
     font-size: 1.5rem;
 }
+
+.footer .col{
+    margin: 5rem 0 3rem 0;
+}
+

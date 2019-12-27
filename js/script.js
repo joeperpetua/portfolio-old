@@ -79,11 +79,12 @@ function changeLang(lange){
 window.onscroll = function(){
         
     if(scrollY > 1000){
-        $('#goUp').addClass('active'); 
+        $('#goUp').removeClass('bounceOutRight'); 
+        $('#goUp').addClass('active animated bounceInRight'); 
     }
 
     if(scrollY < 1000){
-        $('#goUp').removeClass('active'); 
+        $('#goUp').addClass('bounceOutRight'); 
     }
 }
 
