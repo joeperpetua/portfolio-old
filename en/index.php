@@ -1,3 +1,7 @@
+<?php
+    include('../noCache.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,9 +16,9 @@
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
-    <link rel="stylesheet" href="../css/sidebar.css">
-    <link rel="stylesheet" href="../css/content.css">
-    <link rel="stylesheet"  href="../css/style.css">
+    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.1">
+    <link rel="stylesheet" href="../css/content.css?v=1.0.1">
+    <link rel="stylesheet"  href="../css/style.css?v=1.0.1">
 </head>
 <body>
     
@@ -40,15 +44,15 @@
     
                     <div class="row">
                         <div class="col s12 animated fadeInLeft">
-                            <a href="index.html#portfolio"><h3>PORTFOLIO</h3></a>
+                            <a href="#portfolio"><h3>PORTFOLIO</h3></a>
                         </div>
     
                         <div class="col s12 animated fadeInRight">
-                            <a href="index.html#about"><h3>ABOUT ME</h3></a>
+                            <a href="#about"><h3>ABOUT ME</h3></a>
                         </div>
     
                         <div class="col s12 animated fadeInLeft">
-                            <a href="index.html#contact"><h3>CONTACT</h3></a>
+                            <a href="#contact"><h3>CONTACT</h3></a>
                         </div>
                     </div>
     
@@ -323,6 +327,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="../js/script.js?v=1.0.1"></script>
 </body>
 </html>

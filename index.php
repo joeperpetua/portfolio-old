@@ -1,3 +1,7 @@
+<?php
+    include('../noCache.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
