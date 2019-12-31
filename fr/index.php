@@ -221,7 +221,7 @@
                     <p>J'ai eu mon diplôme au lycée E.E.S.T N7 "José Hernández" en Décembre 2019 ce qui me permet
                          de passer un diplôme sur la programmation plus spécifiquement sur le développement d’internet.</p>
                     <br>
-                    <p>J’ai participé à quelques projets, que vous pouvez consulter ici, et j’ai essayé différents technologies.
+                    <p>J’ai participé à quelques projets, que vous pouvez consulter <a href="#portfolio">ici</a>, et j’ai essayé différents technologies.
                          J’ai de l'expérience sur:</p>
                     
                     <h3><b>Langages de Programmation:</b></h3>
@@ -256,9 +256,9 @@
                     <p>J’ai assisté à de nombreux d'événements et forums pour discuter des sujets allant de la cyber-sécurité et la 
                         gouvernance d’internet.</p>
                     <br>
-                    <p>Tous mes certificats d’assistance sont disponible <a href="http://joeperpetua.me/res/certif">ici</a>.</p>
+                    <p>Tous mes certificats d’assistance sont disponible <a href="http://joeperpetua.me/res/#certificates">ici</a>.</p>
                     <br>
-                    <p>Aussi, mon CV est <a href="http://joeperpetua.me/res/cv">ici</a> disponible en français, anglais et espagnol.</p>
+                    <p>Aussi, mon CV est <a href="http://joeperpetua.me/res/">ici</a> disponible en français, anglais et espagnol.</p>
                     <br><br>
 
                 </div>
@@ -282,7 +282,7 @@
                             <div class="input-field col s12">
                                 <input name="email" id="email" type="email" class="validate" required>
                                 <label for="email">Email</label>
-                                <span class="helper-text" data-error="Type a valid email adress" data-success="Valid email adress"></span>
+                                <span class="helper-text" data-error="Tapez une adresse e-mail valide" data-success="Valid email adress"></span>
                             </div>
                         </div>
 
