@@ -89,7 +89,7 @@
                     <div class="col s12">
                         <h3><b>Caractéristiques</b></h3>
                         <ul class="browser-default">
-                            <li>Login / Signup (email seulment)</li>
+                            <li>Login / Signup (email seulement)</li>
                             <li>Récupération de mot de passe</li>
                             <li>Panier</li>
                             <li>Filtres de recherche</li>
@@ -221,7 +221,7 @@
                     <p>J'ai eu mon diplôme au lycée E.E.S.T N7 "José Hernández" en Décembre 2019 ce qui me permet
                          de passer un diplôme sur la programmation plus spécifiquement sur le développement d’internet.</p>
                     <br>
-                    <p>J’ai participé à quelques projets, que vous pouvez consulter <a href="#portfolio">ici</a>, et j’ai essayé différents technologies.
+                    <p>J’ai participé à quelques projets, que vous pouvez consulter <a href="#portfolio">ici</a>, et j’ai essayé différentes technologies.
                          J’ai de l'expérience sur:</p>
                     
                     <h3><b>Langages de Programmation:</b></h3>
@@ -246,17 +246,17 @@
                     </ul>
                     <br>
                     
-                    <p>L’espagnol est ma langue maternelle, je parle l’anglais couramment et j'étudie actuellement la langue français. 
+                    <p>L’espagnol est ma langue maternelle, je parle l’anglais couramment et j'étudie actuellement la langue française. 
                         Je m’organise pour aller en France en 2020 pendant une année afin d’apprendre sa culture, de rencontrer sa population,  
                         d’améliorer mon niveau de langue et de gagner de l'expérience professionnelle.  </p>
                     <br>
                     <p>Je suis vraiment passionné d’apprendre de nouvelles choses, de grandir personnellement et professionnellement, et de 
-                        profiter mon temps libre avec les gens que j’aime.</p>
+                        profiter de mon temps libre avec les gens que j’aime.</p>
                     <br>
-                    <p>J’ai assisté à de nombreux d'événements et forums pour discuter des sujets allant de la cyber-sécurité et la 
+                    <p>J’ai assisté à de nombreux événements et forums pour discuter des sujets allant de la cyber-sécurité et la 
                         gouvernance d’internet.</p>
                     <br>
-                    <p>Tous mes certificats d’assistance sont disponible <a href="http://joeperpetua.me/res/#certificates">ici</a>.</p>
+                    <p>Tous mes certificats d’assistance sont disponibles <a href="http://joeperpetua.me/res/#certificates">ici</a>.</p>
                     <br>
                     <p>Aussi, mon CV est <a href="http://joeperpetua.me/res/">ici</a> disponible en français, anglais et espagnol.</p>
                     <br><br>
