@@ -282,7 +282,7 @@
                             <div class="input-field col s12">
                                 <input name="email" id="email" type="email" class="validate" required>
                                 <label for="email">Email</label>
-                                <span class="helper-text" data-error="Type a valid email adress" data-success="Valid email adress"></span>
+                                <span class="helper-text" data-error="Tapez une adresse e-mail valide" data-success="Valid email adress"></span>
                             </div>
                         </div>
 
