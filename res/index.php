@@ -49,6 +49,7 @@
         </div>
     </div>
 
+    <a id="#certificates"></a>
     <div class="row container">
         <div class="col s12 certif">
             <h1>Certificates</h1>

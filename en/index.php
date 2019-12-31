@@ -252,9 +252,9 @@
                     <br>
                     <p>I've taken place in numerous events and forums discussing the topics all the way from cyber security to internet governance.</p>
                     <br>
-                    <p>All my participation certificates are available <a href="http://joeperpetua.me/res/certif">here</a>.</p>
+                    <p>All my participation certificates are available <a href="http://joeperpetua.me/res/#certificates">here</a>.</p>
                     <br>
-                    <p>My CV is also available <a href="http://joeperpetua.me/res/cv">here</a> in English, French and Spanish.</p>
+                    <p>My CV is also available <a href="http://joeperpetua.me/res/">here</a> in English, French and Spanish.</p>
                     
 
                 </div>
