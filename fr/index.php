@@ -3,7 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,7 +48,7 @@
                         </div>
     
                         <div class="col s12 animated fadeInRight">
-                            <a href="#about"><h3>ABOUT ME</h3></a>
+                            <a href="#about"><h3>À PROPOS</h3></a>
                         </div>
     
                         <div class="col s12 animated fadeInLeft">
@@ -59,12 +59,11 @@
                     <div class="row lang animated fadeInUp">
                         <div class="input-field col s12">       
                             <select class="icons" id="lang">
+                                <option value="fr" data-icon="../img/flag/fr.png">Français</option>    
                                 <option value="en" data-icon="../img/flag/en.png">English</option>
-                                <option value="fr" data-icon="../img/flag/fr.png">Français</option>
                                 <!-- <option value="es" data-icon="../img/flag/es.png">Español</option> -->
-
                             </select>
-                            <label>Website Language</label>
+                            <label>Langue du site</label>
                         </div>
                     </div>
                 </div>
@@ -76,7 +75,7 @@
             <!-- Portfolio -->
             <a id="portfolio"></a>
             <div class="row">
-                <h1>PROJECTS</h1>
+                <h1>PROJETS</h1>
                 
 
                 <!-- exoPhone -->
@@ -88,20 +87,20 @@
                     </div>
 
                     <div class="col s12">
-                        <h3><b>Features</b></h3>
+                        <h3><b>Caractéristiques</b></h3>
                         <ul class="browser-default">
-                            <li>Login / Signup (email only)</li>
-                            <li>Password recovery</li>
-                            <li>Shopping cart</li>
-                            <li>Filters</li>
-                            <li>Detailed product description</li>
+                            <li>Login / Signup (email seulment)</li>
+                            <li>Récupération de mot de passe</li>
+                            <li>Panier</li>
+                            <li>Filtres de recherche</li>
+                            <li>Description détaillée du produit</li>
                             <li>CRUD</li>
-                            <li>Orders review system</li>
-                            <li>Multirelational DB</li>
-                            <li>Custom product recommendation tool</li>
+                            <li>Système de révision des commandes</li>
+                            <li>Base de données multirelationnelle</li>
+                            <li>Outil de recommandation de produits</li>
                         </ul>
 
-                        <h3><b>Technologies used</b></h3>
+                        <h3><b>Technologies utilisées</b></h3>
                         <ul class="browser-default">
                             <li>HTML5</li>
                             <li>CSS / BULMA CSS</li>
@@ -127,14 +126,14 @@
                         </div>
 
                         <div class="col s12">
-                            <h3><b>Features</b></h3>
+                            <h3><b>Caractéristiques</b></h3>
                             <ul class="browser-default">
-                                <li>Detailed product description</li>
-                                <li>Multirelational DB</li>
-                                <li>Connects with DB through a REST API</li>
+                                <li>Description détaillée du produit</li>
+                                <li>Base de données multirelationnelle</li>
+                                <li>Se connecte à la base de données via une API REST</li>
                             </ul>
         
-                            <h3><b>Technologies used</b></h3>
+                            <h3><b>Technologies utilisées</b></h3>
                             <ul class="browser-default">
                                 <li>ReactJS</li>
                                 <li>react-router / react-bootstrap</li>
@@ -157,15 +156,15 @@
                     </div>
 
                     <div class="col s12">
-                        <h3><b>Features</b></h3>
+                        <h3><b>Caractéristiques</b></h3>
                         <ul class="browser-default">
-                            <li>Native APK build</li>
-                            <li>Detailed product description</li>
-                            <li>Multirelational DB</li>
-                            <li>Connects with DB through a REST API</li>
+                            <li>Build APK natif</li>
+                            <li>Description détaillée du produit</li>
+                            <li>Base de données multirelationnelle</li>
+                            <li>Se connecte à la base de données via une API REST</li>
                         </ul>
             
-                        <h3><b>Technologies used</b></h3>
+                        <h3><b>Technologies utilisées</b></h3>
                         <ul class="browser-default">
                             <li>Phonegap</li>
                             <li>Vanilla JS</li>
@@ -181,21 +180,21 @@
                 <!-- Emanuel Asociacion Cristiana -->
                 <div class="col s12">
                     <hr>
-                        <h1>Emanuel Asociacion Cristiana</h1>
+                        <h1>Emanuel Asociación Cristiana</h1>
                         <div>
                             <img src="../img/asocia.jpg" class="responsive-img hide-on-med-and-down" />
                             <img src="../img/asocia-mobile.png" class="responsive-img hide-on-large-only" />
                         </div>
 
                         <div class="col s12">
-                            <h3><b>Features</b></h3>
+                            <h3><b>Caractéristiques</b></h3>
                             <ul class="browser-default">
-                                <li>Schedules and price charts</li>
-                                <li>Description of activities</li>
-                                <li>Weekly blog</li>
+                                <li>Horaires et tableaux de prix</li>
+                                <li>Description des activités</li>
+                                <li>Blog hebdomadaire</li>
                             </ul>
     
-                            <h3><b>Technologies used</b></h3>
+                            <h3><b>Technologies utilisées</b></h3>
                             <ul class="browser-default">
                                 <li>Wordpress CMS</li>
                                 <li>Avada Themes</li>
@@ -205,7 +204,7 @@
                             <br>
 
                             <a class="waves-effect waves-light btn disabled"><i class="fab fa-github material-icons"></i></a>
-                            <a class="waves-effect waves-light btn" href="https://asociacionemanuel.org"><i class="material-icons left"></i>view</a>
+                            <a class="waves-effect waves-light btn" href="https://asociacionemanuel.org"><i class="material-icons left"></i>voir</a>
                         </div>
                     </div>                
             </div>
@@ -214,16 +213,18 @@
             <a id="about"></a>
             <div class="row">
                 <hr>
-                <h1>ABOUT ME</h1>
+                <h1>À PROPOS</h1>
                 
                 <div class="col s12">
-                    <p>I am Joel, I am 19 years old and am currently located in Buenos Aires, Argentina.</p>
+                    <p>Je m'appelle Joel, j'ai 19 ans et j'habite actuellement à Buenos Aires, Argentina</p>
                     <br>
-                    <p>I have graduated from E.E.S.T N7 "José Hernández" highschool in December 2019 which allowed me to get a degree in programming and to specialize in web development.</p>
+                    <p>J'ai eu mon diplôme au lycée E.E.S.T N7 "José Hernández" en Décembre 2019 ce qui me permet
+                         de passer un diplôme sur la programmation plus spécifiquement sur le développement d’internet.</p>
                     <br>
-                    <p>I've done some projects, as shown <a href="#portfolio">above</a>, and dabbled into different technologies. I have experience working in:</p>
+                    <p>J’ai participé à quelques projets, que vous pouvez consulter ici, et j’ai essayé différents technologies.
+                         J’ai de l'expérience sur:</p>
                     
-                    <h3><b>Prog. Languages:</b></h3>
+                    <h3><b>Langages de Programmation:</b></h3>
                     <ul class="browser-default">
                         <li>JavaScript</li>
                         <li>PHP</li>
@@ -232,7 +233,7 @@
                         <li>Java</li>
                     </ul>  
                     
-                    <h3><b>Development tools:</b></h3>
+                    <h3><b>Outils de développement:</b></h3>
                     <ul class="browser-default">
                         <li>ReactJS (react-router / react-strap)</li>
                         <li>FireBase / FireStore</li>
@@ -245,17 +246,20 @@
                     </ul>
                     <br>
                     
-                    <p>Spanish is my mother tongue, I speak English fluently and I am currently studying French. I am planning to go to France for about a year, starting on 2020, 
-                            to learn about its culture, get to know its people, to get a better grasp of the language and gain some profesional experience.</p>
+                    <p>L’espagnol est ma langue maternelle, je parle l’anglais couramment et j'étudie actuellement la langue français. 
+                        Je m’organise pour aller en France en 2020 pendant une année afin d’apprendre sa culture, de rencontrer sa population,  
+                        d’améliorer mon niveau de langue et de gagner de l'expérience professionnelle.  </p>
                     <br>
-                    <p>I am very passionate about learning new things, about developing personally and profesionally, and also enjoy my time with the people I love.</p>
+                    <p>Je suis vraiment passionné d’apprendre de nouvelles choses, de grandir personnellement et professionnellement, et de 
+                        profiter mon temps libre avec les gens que j’aime.</p>
                     <br>
-                    <p>I've taken place in numerous events and forums discussing the topics all the way from cyber security to internet governance.</p>
+                    <p>J’ai assisté à de nombreux d'événements et forums pour discuter des sujets allant de la cyber-sécurité et la 
+                        gouvernance d’internet.</p>
                     <br>
-                    <p>All my participation certificates are available <a href="http://joeperpetua.me/res/certif">here</a>.</p>
+                    <p>Tous mes certificats d’assistance sont disponible <a href="http://joeperpetua.me/res/certif">ici</a>.</p>
                     <br>
-                    <p>My CV is also available <a href="http://joeperpetua.me/res/cv">here</a> in English, French and Spanish.</p>
-                    
+                    <p>Aussi, mon CV est <a href="http://joeperpetua.me/res/cv">ici</a> disponible en français, anglais et espagnol.</p>
+                    <br><br>
 
                 </div>
 
@@ -285,7 +289,7 @@
                         <div class="row">
                             <div class="input-field col s12">
                                 <input name="subject" id="subject" type="text" required>
-                                <label for="subject">Subject</label>
+                                <label for="subject">Subjet</label>
                             </div>
                         </div>
 
@@ -312,11 +316,11 @@
                 <!-- email adress modal -->
                 <div id="modal1" class="modal">
                     <div class="modal-content">
-                      <h3>email adress:</h3>
+                      <h3>adresse email:</h3>
                       <a href="mailto:joelperpetua@gmail.com" class="center-align">joelperpetua@gmail.com</a>
                     </div>
                     <div class="modal-footer">
-                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Got it!</a>
+                      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Je l'ai !</a>
                     </div>
                   </div>
                 
