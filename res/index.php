@@ -23,6 +23,8 @@
 
     <div class="row container">
         <div class="col s12">
+            <br>
+            <a href="http://www.joeperpetua.me" class="btn"><i class="fas fa-arrow-left"></i></a>
             <h1>CV</h1>
         </div>
         <div class="col s12">
