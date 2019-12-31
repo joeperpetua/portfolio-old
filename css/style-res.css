@@ -1,0 +1,27 @@
+ul{
+    background-color: #a2dfff;
+    /* margin: 0 2%;
+    padding: 2% 0; */
+}
+
+li{
+    width: 100%;
+    padding: 5%;
+    font-size: 1.8rem;
+    color: #039be5;
+    background-color: #a2dfff;
+    transition: ease .5s;
+}
+
+li:hover{
+    background-color: #fbfbfb;
+}
+
+.certif{
+    padding: 0 5%;
+}
+
+.desc{
+    display: block;
+}
+
