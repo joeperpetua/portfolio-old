@@ -60,6 +60,16 @@ h4{
     display: none;
 }
 
+span .modal .modal-content {
+    text-align: center;
+    height: fit-content;
+    padding: 15% 5%;
+}
+
+.lang-modal a{
+    margin: 1%;
+}
+
 
 @media only screen and (max-width: 992px){
     .sidenav.sidenav-fixed {

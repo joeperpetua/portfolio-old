@@ -61,6 +61,8 @@ $(document).ready(function(){
     $('.modal').modal();
     $('.parallax').parallax();
     $('select').formSelect();
+
+    langModal();
 });
 
 
@@ -85,6 +87,17 @@ window.onscroll = function(){
 
     if(scrollY < 1000){
         $('#goUp').addClass('bounceOutRight'); 
+    }
+}
+
+//display language selection modal
+
+function langModal(){
+    var hash = window.location.hash;
+    console.log(hash);
+
+    if (hash === '#language'){
+        $('#language').modal('open');
     }
 }
 

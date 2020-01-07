@@ -15,10 +15,11 @@
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="../flag-icon-css/css/flag-icon.min.css">
 
     <link rel="stylesheet" href="../css/sidebar.css?v=1.0.1">
     <link rel="stylesheet" href="../css/content.css?v=1.0.1">
-    <link rel="stylesheet"  href="../css/style.css?v=1.0.1">
+    <link rel="stylesheet"  href="../css/style.css?v=1.0.2">
 </head>
 <body>
     
@@ -318,7 +319,18 @@
                     <div class="modal-footer">
                       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Got it!</a>
                     </div>
-                  </div>
+                </div>
+
+                  <!-- language selection modal -->
+                <span>
+                    <div id="language" class="modal">
+                        <div class="modal-content lang-modal">
+                            <h3>Please choose your language</h3>
+                            <a href="http://www.joeperpetua.me/en" class="btn center-align blue-grey darken-3">English <span class="flag-icon flag-icon-gb"></span></a>
+                            <a href="http://www.joeperpetua.me/fr" class="btn center-align blue-grey darken-3">Francais <span class="flag-icon flag-icon-fr"></span></a>
+                        </div>
+                    </div>
+                </span>
                 
             
 
@@ -327,6 +339,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../js/script.js?v=1.0.1"></script>
+    <script src="../js/script.js?v=1.0.2"></script>
 </body>
 </html>

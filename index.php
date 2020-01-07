@@ -1,5 +1,5 @@
 <?php
-    include('../noCache.php');
+    include('noCache.php');
 ?>
 
 <!DOCTYPE html>
@@ -12,7 +12,7 @@
 </head>
 <body>
     <script>
-        window.open('en/', '_self');
+        window.open('en/#language', '_self');
     </script>
 </body>
 </html>
