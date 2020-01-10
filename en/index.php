@@ -327,7 +327,7 @@
                         <div class="modal-content lang-modal">
                             <h3>Please choose your language</h3>
                             <a href="http://www.joeperpetua.me/en" class="btn center-align blue-grey darken-3">English <span class="flag-icon flag-icon-gb"></span></a>
-                            <a href="http://www.joeperpetua.me/fr" class="btn center-align blue-grey darken-3">Francais <span class="flag-icon flag-icon-fr"></span></a>
+                            <a href="http://www.joeperpetua.me/fr" class="btn center-align blue-grey darken-3">Français <span class="flag-icon flag-icon-fr"></span></a>
                         </div>
                     </div>
                 </span>
