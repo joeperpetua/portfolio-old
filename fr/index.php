@@ -18,7 +18,7 @@
 
     <link rel="stylesheet" href="../css/sidebar.css?v=1.0.1">
     <link rel="stylesheet" href="../css/content.css?v=1.0.1">
-    <link rel="stylesheet"  href="../css/style.css?v=1.0.1">
+    <link rel="stylesheet"  href="../css/style.css?v=1.0.3">
 </head>
 <body>
     
@@ -343,6 +343,6 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../js/script.js?v=1.0.1"></script>
+    <script src="../js/script.js?v=1.0.2"></script>
 </body>
 </html>

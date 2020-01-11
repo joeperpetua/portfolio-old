@@ -70,6 +70,10 @@ span .modal .modal-content {
     margin: 1%;
 }
 
+#tl_popupPOSDV{
+    z-index: 10!important;
+}
+
 
 @media only screen and (max-width: 992px){
     .sidenav.sidenav-fixed {
