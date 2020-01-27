@@ -347,6 +347,6 @@
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../js/script.js?v=1.0.2"></script>
+    <script src="../js/script.js?v=1.0.3"></script>
 </body>
 </html>
