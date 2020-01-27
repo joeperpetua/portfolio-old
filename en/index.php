@@ -145,11 +145,11 @@
                             <br>
     
                             <a class="waves-effect waves-light btn" href="https://github.com/joeperpetua/react-app"><i class="fab fa-github material-icons"></i></a>
-                            <!-- <a class="waves-effect waves-light btn" href=""><i class="material-icons left"></i>view</a> -->
+                           <a class="waves-effect waves-light btn" href="https://joeperpetua.me/projects/react-ecommerce"><i class="material-icons left"></i>view</a>
                         </div>
                     </div>
 
-                <!-- React e-commerce -->
+                <!-- Phonegap e-commerce -->
                 <div class="col s12">
                     <hr>
                     <h2>Phonegap e-commerce (DEMO)</h2>
