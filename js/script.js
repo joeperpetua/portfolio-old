@@ -1,7 +1,7 @@
 var lange = "";
 var tag;
 
-$(document).ready(function(){
+window.onload = function(){
 
     //change lang on load
     
@@ -28,8 +28,6 @@ $(document).ready(function(){
 
     if(window.location.hash) {
         onHashChange();
-    } else {
-        // Fragment doesn't exist
     }
 
     $(window).on('hashchange', function() {
@@ -56,14 +54,14 @@ $(document).ready(function(){
     }
 
 
-
-
     $('.modal').modal();
     $('.parallax').parallax();
     $('select').formSelect();
 
     langModal();
-});
+    setFormLang();
+}
+
 
 
 function changeLang(lange){
@@ -75,6 +73,39 @@ function changeLang(lange){
     window.open(url, '_self');
 }
 
+function setFormLang() {
+    var lang = window.location.pathname;
+
+    if (lang === '/en/') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Message sent correctly!<h3>
+                <h4>You will get a reply soon<h4>
+            </div>
+            <button class="btn">Got it!</button>
+        `;
+    }
+    
+    if (lang === '/fr/') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Message envoyé avec succès !<h3>
+                <h4>Vous obtiendrez une response bientôt<h4>
+            </div>
+            <button class="btn">D'accord !</button>
+        `;
+    }
+    
+    var form = document.querySelector('.pageclip-form')
+    Pageclip.form(form, {
+    onSubmit: function (event) { },
+    onResponse: function (error, response) { },
+    successTemplate: successMsg
+    })
+
+}
 
 //display button to up
  
@@ -94,7 +125,6 @@ window.onscroll = function(){
 
 function langModal(){
     var hash = window.location.hash;
-    console.log(hash);
 
     if (hash === '#language'){
         $('#language').modal('open');

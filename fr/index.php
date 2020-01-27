@@ -15,6 +15,7 @@
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
     <link rel="stylesheet" href="../css/sidebar.css?v=1.0.1">
     <link rel="stylesheet" href="../css/content.css?v=1.0.1">
@@ -277,7 +278,7 @@
                 
 
                 <div class="col s12">
-                    <form action="../sendMail.php" method="POST">
+                    <form action="https://send.pageclip.co/55BDt4beRrg56vdsPaoER8BqKMAhhpjl/contact-form" class="pageclip-form" method="post">
                         <div class="row">
                             <div class="input-field col s12">
                                 <input name="email" id="email" type="email" class="validate" required>
@@ -299,7 +300,9 @@
                                 <label for="textarea">Message</label>
                             </div>
                         </div>
-                        <b><input type="submit" name="submit" class="btn right" value="Send"></b>
+                        <button type="submit" class="pageclip-form__submit btn right">
+                            <span>Envoyer</span>
+                        </button>
                     </form>                                       
                 </div>
 
@@ -341,6 +344,7 @@
             </div>
         </div>
     </div>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="../js/script.js?v=1.0.2"></script>
