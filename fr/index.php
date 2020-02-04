@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.2">
-    <link rel="stylesheet" href="../css/content.css?v=1.0.2">
+    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.3">
+    <link rel="stylesheet" href="../css/content.css?v=1.0.3">
     <link rel="stylesheet"  href="../css/style.css?v=1.0.3">
 </head>
 <body>
