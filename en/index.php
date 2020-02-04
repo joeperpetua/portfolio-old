@@ -30,8 +30,8 @@
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="../flag-icon-css/css/flag-icon.min.css">
 
-    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.2">
-    <link rel="stylesheet" href="../css/content.css?v=1.0.2">
+    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.3">
+    <link rel="stylesheet" href="../css/content.css?v=1.0.3">
     <link rel="stylesheet"  href="../css/style.css?v=1.0.3">
 </head>
 <body>
