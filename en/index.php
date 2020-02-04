@@ -5,11 +5,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href="../img/icon/user.png" sizes="32x32">
+
     <title>Joel Perpetua - Portfolio</title>
+    <meta name="description" content="Hi, I am Joel and this is my online portfolio, here you will find all my projects and skills.">
+    <meta name="author" content="Joel Perpetua">
+    <meta name="keywords" content="Joel,Perpetua,Joel Perpetua,Portfolio,Web developer,Resume,CV,Software Developer,E.E.S.T N7">
+
+    <link rel="icon" type="image/png" href="../img/icon/user.png" sizes="32x32">
+
+    <!-- og -->
+    <meta property="og:title" content="Joel Perpetua - Portfolio">
+    <meta property="og:image" content="https://joeperpetua.me/img/thumbnail-en.png">
+    <meta property="og:description" content="Hi, I am Joel and this is my online portfolio, here you will find all my projects and skills.">
+    <meta property="og:url" content="https://joeperpetua.me/fr">
 
     <!-- styles -->
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
