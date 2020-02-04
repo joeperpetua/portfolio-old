@@ -13,7 +13,7 @@
     <title>Joel Perpetua - Portfolio</title>
     <meta name="description" content="Salut ! Je m'appelle Joel et c'est mon portfolio en ligne, ici vous pourrez trouver mes projets et mes connaisances.">
     <meta name="author" content="Joel Perpetua">
-    <meta name="keywords" content="Joel,Perpetua,Joel Perpetua,Portfolio,Web developper,Resume,CV,Software Developper,E.E.S.T N7">
+    <meta name="keywords" content="Joel,Perpetua,Joel Perpetua,Portfolio,Web developer,Resume,CV,Software Developer,E.E.S.T N7">
 
     <link rel="icon" type="image/png" href="../img/icon/user.png" sizes="32x32">
     
@@ -31,8 +31,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.1">
-    <link rel="stylesheet" href="../css/content.css?v=1.0.1">
+    <link rel="stylesheet" href="../css/sidebar.css?v=1.0.2">
+    <link rel="stylesheet" href="../css/content.css?v=1.0.2">
     <link rel="stylesheet"  href="../css/style.css?v=1.0.3">
 </head>
 <body>
@@ -49,7 +49,7 @@
                     
                     <div class="row">
                         <div class="col s12 col-img">
-                            <img src="../img/me.jpg" alt="" class="responsive-img circle animated fadeIn">
+                            <img src="../img/me.jpg" alt="me" class="responsive-img circle animated fadeIn">
                         </div>
     
                         <div class="col s12">
@@ -97,8 +97,8 @@
                 <div class="col s12">
                     <h2>PHP e-commerce (DEMO)</h2>
                     <div>
-                        <img src="../img/exophone.png" class="responsive-img hide-on-med-and-down" />
-                        <img src="../img/exophone-mobile.png" class="responsive-img hide-on-large-only" />
+                        <img src="../img/exophone.png" alt="ecommerce php" class="responsive-img hide-on-med-and-down" />
+                        <img src="../img/exophone-mobile.png" alt="ecommerce php mobile" class="responsive-img hide-on-large-only" />
                     </div>
 
                     <div class="col s12">
@@ -136,8 +136,8 @@
                     <hr>
                         <h2>React e-commerce (DEMO)</h2>
                         <div>
-                            <img src="../img/react-app.jpg" class="responsive-img hide-on-med-and-down" />
-                            <img src="../img/react-app-mobile.png" class="responsive-img hide-on-large-only" />
+                            <img alt="ecommerce react" src="../img/react-app.jpg" class="responsive-img hide-on-med-and-down" />
+                            <img alt="ecommerce react mobile" src="../img/react-app-mobile.png" class="responsive-img hide-on-large-only" />
                         </div>
 
                         <div class="col s12">
@@ -166,8 +166,8 @@
                     <hr>
                     <h2>Phonegap e-commerce (DEMO)</h2>
                     <div>
-                        <img src="../img/exo-app-desk.png" class="responsive-img hide-on-med-and-down" />
-                        <img src="../img/exo-app.png" class="responsive-img hide-on-large-only" />
+                        <img alt="ecommerce phonegap" src="../img/exo-app-desk.png" class="responsive-img hide-on-med-and-down" />
+                        <img alt="ecommerce phonegap mobile" src="../img/exo-app.png" class="responsive-img hide-on-large-only" />
                     </div>
 
                     <div class="col s12">
@@ -197,8 +197,8 @@
                     <hr>
                         <h1>Emanuel Asociación Cristiana</h1>
                         <div>
-                            <img src="../img/asocia.jpg" class="responsive-img hide-on-med-and-down" />
-                            <img src="../img/asocia-mobile.png" class="responsive-img hide-on-large-only" />
+                            <img alt="asociacion emanuel" src="../img/asocia.jpg" class="responsive-img hide-on-med-and-down" />
+                            <img alt="asociacion emanuel mobile" src="../img/asocia-mobile.png" class="responsive-img hide-on-large-only" />
                         </div>
 
                         <div class="col s12">

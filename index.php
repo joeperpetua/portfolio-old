@@ -13,7 +13,7 @@
     <title>Joel Perpetua - Portfolio</title>
     <meta name="description" content="Hi, I am Joel and this is my online portfolio, here you will find all my projects and skills.">
     <meta name="author" content="Joel Perpetua">
-    <meta name="keywords" content="Joel,Perpetua,Joel Perpetua,Portfolio,Web developper,Resume,CV,Software Developper,E.E.S.T N7">
+    <meta name="keywords" content="Joel,Perpetua,Joel Perpetua,Portfolio,Web developer,Resume,CV,Software Developer,E.E.S.T N7">
 
     <link rel="icon" type="image/png" href="../img/icon/user.png" sizes="32x32">
 
