@@ -75,7 +75,7 @@
                             <select class="icons" id="lang">
                                 <option value="en" data-icon="../img/flag/en.png">English</option>
                                 <option value="fr" data-icon="../img/flag/fr.png">Français</option>
-                                <!-- <option value="es" data-icon="../img/flag/es.png">Español</option> -->
+                                <option value="es" data-icon="../img/flag/es.png">Español</option>
 
                             </select>
                             <label>Website Language</label>
