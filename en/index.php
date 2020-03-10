@@ -231,7 +231,7 @@
                 <h1>ABOUT ME</h1>
                 
                 <div class="col s12">
-                    <p>I am Joel, I am 19 years old and am currently located in Buenos Aires, Argentina.</p>
+                    <p>I am Joel, I am 19 years old and am currently located in Asnières-sur-Seine, Île-de-France.</p>
                     <br>
                     <p>I have graduated from E.E.S.T N7 "José Hernández" highschool in December 2019 which allowed me to get a degree in programming and to specialize in web development.</p>
                     <br>
@@ -259,8 +259,8 @@
                     </ul>
                     <br>
                     
-                    <p>Spanish is my mother tongue, I speak English fluently and I am currently studying French. I am planning to go to France for about a year, starting on 2020, 
-                            to learn about its culture, get to know its people, to get a better grasp of the language and gain some profesional experience.</p>
+                    <p>Spanish is my mother tongue, I speak English fluently and I am currently studying French. I have decided to move to France and I am here since March 2020, 
+                            I have come to learn about its culture, get to know its people, to get a better grasp of the language and gain some profesional experience.</p>
                     <br>
                     <p>I am very passionate about learning new things, about developing personally and profesionally, and also enjoy my time with the people I love.</p>
                     <br>

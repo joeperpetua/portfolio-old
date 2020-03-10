@@ -231,7 +231,7 @@
                 <h1>À PROPOS</h1>
                 
                 <div class="col s12">
-                    <p>Je m'appelle Joel, j'ai 19 ans et j'habite actuellement à Buenos Aires, Argentina</p>
+                    <p>Je m'appelle Joel, j'ai 19 ans et j'habite actuellement à Asnières-sur-Seine, Île-de-France.</p>
                     <br>
                     <p>J'ai eu mon diplôme au lycée E.E.S.T N7 "José Hernández" en Décembre 2019 ce qui me permet
                          de passer un diplôme sur la programmation plus spécifiquement sur le développement d’internet.</p>
@@ -262,7 +262,7 @@
                     <br>
                     
                     <p>L’espagnol est ma langue maternelle, je parle l’anglais couramment et j'étudie actuellement la langue française. 
-                        Je m’organise pour aller en France en 2020 pendant une année afin d’apprendre sa culture, de rencontrer sa population,  
+                        J'ai décidé de venir en France et je suis ici depuis Mars 2020 afin d’apprendre sa culture, de rencontrer sa population,  
                         d’améliorer mon niveau de langue et de gagner de l'expérience professionnelle.  </p>
                     <br>
                     <p>Je suis vraiment passionné d’apprendre de nouvelles choses, de grandir personnellement et professionnellement, et de 
