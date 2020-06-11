@@ -51,9 +51,13 @@ h4{
 #goUp{
     display: none;
     position: fixed;
-    bottom: 5%;
+    bottom: 10%;
     right: 5%;
     z-index: 1;
+}
+
+.btn:hover{
+    background-color: #31393c;
 }
 
 .active{

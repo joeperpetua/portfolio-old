@@ -14,14 +14,14 @@ window.onload = function(){
 
     //change lang on select change
 
-    $('#lang').change(function(){
-        var lange = "";
-        $('#lang option:selected').each(function() {
-            lange = $( this ).val();
-          });
-        console.log(lange);
-        changeLang(lange);
-    })
+    // $('#lang').change(function(){
+    //     var lange = "";
+    //     $('#lang option:selected').each(function() {
+    //         lange = $( this ).val();
+    //       });
+    //     console.log(lange);
+    //     changeLang(lange);
+    // })
 
 
     
@@ -58,54 +58,54 @@ window.onload = function(){
     $('.parallax').parallax();
     $('select').formSelect();
 
-    langModal();
-    setFormLang();
+    // langModal();
+    // setFormLang();
 }
 
 
 
-function changeLang(lange){
+// function changeLang(lange){
 
-    var langs = lange.split(' ');
-    var url = 'http://www.joeperpetua.me/'+langs[0]+'';
-    console.log(url);
+//     var langs = lange.split(' ');
+//     var url = 'http://www.joeperpetua.me/'+langs[0]+'';
+//     console.log(url);
     
-    window.open(url, '_self');
-}
+//     window.open(url, '_self');
+// }
 
-function setFormLang() {
-    var lang = window.location.pathname;
+// function setFormLang() {
+//     var lang = window.location.pathname;
 
-    if (lang === '/portfolio/en/') {
-        var successMsg = 
-        `
-            <div class="container">
-                <h3>Message sent correctly!<h3>
-                <h4>You will get a reply soon<h4>
-            </div>
-            <button class="btn">Got it!</button>
-        `;
-    }
+//     if (lang === '/portfolio/en/') {
+//         var successMsg = 
+//         `
+//             <div class="container">
+//                 <h3>Message sent correctly!<h3>
+//                 <h4>You will get a reply soon<h4>
+//             </div>
+//             <button class="btn">Got it!</button>
+//         `;
+//     }
     
-    if (lang === '/portfolio/fr/') {
-        var successMsg = 
-        `
-            <div class="container">
-                <h3>Message envoyé avec succès !<h3>
-                <h4>Vous obtiendrez une response bientôt<h4>
-            </div>
-            <button class="btn">D'accord !</button>
-        `;
-    }
+//     if (lang === '/portfolio/fr/') {
+//         var successMsg = 
+//         `
+//             <div class="container">
+//                 <h3>Message envoyé avec succès !<h3>
+//                 <h4>Vous obtiendrez une response bientôt<h4>
+//             </div>
+//             <button class="btn">D'accord !</button>
+//         `;
+//     }
     
-    var form = document.querySelector('.pageclip-form')
-    Pageclip.form(form, {
-    onSubmit: function (event) { },
-    onResponse: function (error, response) { },
-    successTemplate: successMsg
-    })
+//     var form = document.querySelector('.pageclip-form')
+//     Pageclip.form(form, {
+//     onSubmit: function (event) { },
+//     onResponse: function (error, response) { },
+//     successTemplate: successMsg
+//     })
 
-}
+// }
 
 //display button to up
  
@@ -123,11 +123,11 @@ window.onscroll = function(){
 
 //display language selection modal
 
-function langModal(){
-    var hash = window.location.hash;
+// function langModal(){
+//     var hash = window.location.hash;
 
-    if (hash === '#language'){
-        $('#language').modal('open');
-    }
-}
+//     if (hash === '#language'){
+//         $('#language').modal('open');
+//     }
+// }
 

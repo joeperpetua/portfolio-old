@@ -1,5 +1,6 @@
 <?php
     include('../noCache.php');
+    header('Location: https://joeperpetua.me');
 ?>
 
 <!DOCTYPE html>
