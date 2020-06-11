@@ -1,6 +1,7 @@
 var lange = "";
 var tag;
 
+
 window.onload = function(){
 
     //change lang on load
@@ -58,10 +59,18 @@ window.onload = function(){
     $('.parallax').parallax();
     $('select').formSelect();
 
-    // langModal();
-    // setFormLang();
-}
 
+    var lang1 = document.getElementsByClassName("wg-li")[1];
+    var lang2 = document.getElementsByClassName("wg-li")[2];
+
+    if(lang1 != undefined && lang2 != undefined){
+        lang1.onclick = function(){ setFormLang() };
+        lang2.onclick = function(){ setFormLang() };
+    }
+
+    // langModal();
+    setFormLang();
+}
 
 
 // function changeLang(lange){
@@ -73,39 +82,55 @@ window.onload = function(){
 //     window.open(url, '_self');
 // }
 
-// function setFormLang() {
-//     var lang = window.location.pathname;
 
-//     if (lang === '/portfolio/en/') {
-//         var successMsg = 
-//         `
-//             <div class="container">
-//                 <h3>Message sent correctly!<h3>
-//                 <h4>You will get a reply soon<h4>
-//             </div>
-//             <button class="btn">Got it!</button>
-//         `;
-//     }
-    
-//     if (lang === '/portfolio/fr/') {
-//         var successMsg = 
-//         `
-//             <div class="container">
-//                 <h3>Message envoyé avec succès !<h3>
-//                 <h4>Vous obtiendrez une response bientôt<h4>
-//             </div>
-//             <button class="btn">D'accord !</button>
-//         `;
-//     }
-    
-//     var form = document.querySelector('.pageclip-form')
-//     Pageclip.form(form, {
-//     onSubmit: function (event) { },
-//     onResponse: function (error, response) { },
-//     successTemplate: successMsg
-//     })
 
-// }
+function setFormLang() {
+    var sel = $('.wgcurrent');
+    if (sel != undefined) {
+        var lang = sel[0].dataset.l;
+    }
+
+    if (lang === 'en') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Message sent correctly!<h3>
+                <h4>You will get a reply soon<h4>
+            </div>
+            <button class="btn">Got it!</button>
+        `;
+    }
+
+    if (lang === 'fr') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Message envoyé avec succès !<h3>
+                <h4>Vous obtiendrez une response bientôt<h4>
+            </div>
+            <button class="btn">D'accord !</button>
+        `;
+    }
+
+    if (lang === 'es') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Mensaje enviado satisfactoriamente!<h3>
+                <h4>Pronto recibirá una respuesta.<h4>
+            </div>
+            <button class="btn">Ok!</button>
+        `;
+    }
+
+    var form = document.querySelector('.pageclip-form')
+    Pageclip.form(form, {
+    onSubmit: function (event) { },
+    onResponse: function (error, response) { },
+    successTemplate: successMsg
+    })
+
+}
 
 //display button to up
  

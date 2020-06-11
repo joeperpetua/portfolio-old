@@ -24,16 +24,15 @@
     <meta property="og:url" content="https://joeperpetua.me/">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156693045-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156693045-1"></script>
     <script src="js/gtag.js"></script>
-    <meta name="google-site-verification" content="M4IhjQxwpOjAYYRJwrCIKl3H71WfME13z5ovbgaGams" />
+    <meta name="google-site-verification" content="M4IhjQxwpOjAYYRJwrCIKl3H71WfME13z5ovbgaGams" /> -->
 
     <!-- styles -->
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
-    <link rel="stylesheet" href="flag-icon-css/css/flag-icon.min.css">
 
     <link rel="stylesheet" href="css/sidebar.css?v=1.0.4">
     <link rel="stylesheet" href="css/content.css?v=1.0.4">
@@ -379,6 +378,6 @@
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/script.js?v=1.0.3"></script>
+    <script src="js/script.js?v=1.0.4"></script>
 </body>
 </html>
