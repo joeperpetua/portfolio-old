@@ -251,11 +251,14 @@
                         <li>SQL</li>
                         <li>HTML / CSS</li>
                         <li>Java</li>
+                        <li>C#</li>
                     </ul>  
                     
                     <h3><b>Development tools:</b></h3>
                     <ul class="browser-default">
                         <li>ReactJS (react-router / react-strap)</li>
+                        <li>NodeJS</li>
+                        <li>Unity</li>
                         <li>FireBase / FireStore</li>
                         <li>Strapi</li>
                         <li>Bulma CSS / Bootstrap CSS / Materialize CSS</li>
@@ -264,7 +267,17 @@
                         <li>Git (Github / Gitlab)</li>
                         <li>JIRA</li>
                     </ul>
-                    <br>
+
+                    <h3><b>Design tools:</b></h3>
+                    <ul class="browser-default">
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe XD</li>
+                        <li>Adobe Premiere</li>
+                        <li>Adobe After Effects</li>
+                        <li>Audacity</li>
+                        <li>Canva</li>
+                    </ul>
+                    <br><br>
                     
                     <p>Spanish is my mother tongue, I speak English fluently and I am currently studying French. I have decided to move to France and I am here since March 2020, 
                             I have come to learn about its culture, get to know its people, to get a better grasp of the language and gain some profesional experience.</p>
@@ -275,7 +288,7 @@
                     <br>
                     <p>All my participation certificates are available <a href="http://joeperpetua.me/res/#certificates">here</a>.</p>
                     <br>
-                    <p>My CV is also available <a href="http://joeperpetua.me/res/">here</a> in English, French and Spanish.</p>
+                    <p>My CV is also available <a href="res/">here</a> in English, French and Spanish.</p>
                     
 
                 </div>
