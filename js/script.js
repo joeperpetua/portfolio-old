@@ -1,6 +1,7 @@
 var lange = "";
 var tag;
 
+
 window.onload = function(){
 
     //change lang on load
@@ -14,14 +15,14 @@ window.onload = function(){
 
     //change lang on select change
 
-    $('#lang').change(function(){
-        var lange = "";
-        $('#lang option:selected').each(function() {
-            lange = $( this ).val();
-          });
-        console.log(lange);
-        changeLang(lange);
-    })
+    // $('#lang').change(function(){
+    //     var lange = "";
+    //     $('#lang option:selected').each(function() {
+    //         lange = $( this ).val();
+    //       });
+    //     console.log(lange);
+    //     changeLang(lange);
+    // })
 
 
     
@@ -58,25 +59,38 @@ window.onload = function(){
     $('.parallax').parallax();
     $('select').formSelect();
 
-    langModal();
+
+    var lang1 = document.getElementsByClassName("wg-li")[1];
+    var lang2 = document.getElementsByClassName("wg-li")[2];
+
+    if(lang1 != undefined && lang2 != undefined){
+        lang1.onclick = function(){ setFormLang() };
+        lang2.onclick = function(){ setFormLang() };
+    }
+
+    // langModal();
     setFormLang();
 }
 
 
+// function changeLang(lange){
 
-function changeLang(lange){
-
-    var langs = lange.split(' ');
-    var url = 'http://www.joeperpetua.me/'+langs[0]+'';
-    console.log(url);
+//     var langs = lange.split(' ');
+//     var url = 'http://www.joeperpetua.me/'+langs[0]+'';
+//     console.log(url);
     
-    window.open(url, '_self');
-}
+//     window.open(url, '_self');
+// }
+
+
 
 function setFormLang() {
-    var lang = window.location.pathname;
+    var sel = $('.wgcurrent');
+    if (sel != undefined) {
+        var lang = sel[0].dataset.l;
+    }
 
-    if (lang === '/portfolio/en/') {
+    if (lang === 'en') {
         var successMsg = 
         `
             <div class="container">
@@ -86,8 +100,8 @@ function setFormLang() {
             <button class="btn">Got it!</button>
         `;
     }
-    
-    if (lang === '/portfolio/fr/') {
+
+    if (lang === 'fr') {
         var successMsg = 
         `
             <div class="container">
@@ -97,7 +111,18 @@ function setFormLang() {
             <button class="btn">D'accord !</button>
         `;
     }
-    
+
+    if (lang === 'es') {
+        var successMsg = 
+        `
+            <div class="container">
+                <h3>Mensaje enviado satisfactoriamente!<h3>
+                <h4>Pronto recibirá una respuesta.<h4>
+            </div>
+            <button class="btn">Ok!</button>
+        `;
+    }
+
     var form = document.querySelector('.pageclip-form')
     Pageclip.form(form, {
     onSubmit: function (event) { },
@@ -123,11 +148,11 @@ window.onscroll = function(){
 
 //display language selection modal
 
-function langModal(){
-    var hash = window.location.hash;
+// function langModal(){
+//     var hash = window.location.hash;
 
-    if (hash === '#language'){
-        $('#language').modal('open');
-    }
-}
+//     if (hash === '#language'){
+//         $('#language').modal('open');
+//     }
+// }
 

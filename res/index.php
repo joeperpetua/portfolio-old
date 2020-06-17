@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 
     <link rel="stylesheet"  href="../css/style-res.css?v=1.0.1">
+
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+    <script type="text/javascript" src="../js/lang.js"></script>
 </head>
 <body>
     <a id="up"></a>
@@ -93,7 +96,7 @@
                     </li>
 
                     <li>
-                        <span class="desc">Youth IGH Argentina 2018</span>    
+                        <span class="desc">Youth IGF Argentina 2018</span>    
                         <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/YouthIGF2018.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/YouthIGF2018.pdf" target="_blank" download="JoelPerpetua-YouthIGF2018"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li> 
@@ -105,6 +108,6 @@
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="../js/script.js?v=1.0.1"></script>
+    <!-- <script src="../js/script.js?v=1.0.4"></script> -->
 </body>
 </html>
