@@ -27,7 +27,7 @@
     <div class="row container">
         <div class="col s12">
             <br>
-            <a href="https://www.joeperpetua.me" class="btn"><i class="fas fa-arrow-left"></i></a>
+            <a href="https://joeper.myds.me" class="btn"><i class="fas fa-arrow-left"></i></a>
             <h1>CV</h1>
         </div>
         <div class="col s12">
@@ -35,19 +35,19 @@
             <ul>
                 <li>
                     <span class="desc">CV (English)</span>    
-                    <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/cv/CV-en.pdf" target="_blank"  class="btn-small">VIEW</a> 
+                    <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/cv/CV-en.pdf" target="_blank"  class="btn-small">VIEW</a> 
                     <a href="cv/CV-en.pdf" target="_blank" download="JoelPerpetua-CV-en"  class="btn-small"><i class="fas fa-file-download"></i></a>
                 </li>
 
                 <li>
                     <span class="desc">CV (Français)</span> 
-                    <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/cv/CV-fr.pdf" target="_blank" class="btn-small">VIEW</a> 
+                    <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/cv/CV-fr.pdf" target="_blank" class="btn-small">VIEW</a> 
                     <a href="cv/CV-fr.pdf" target="_blank" download="JoelPerpetua-CV-fr"  class="btn-small"><i class="fas fa-file-download"></i></a>
                 </li>
 
                 <li>
                     <span class="desc">CV (Español)</span>
-                    <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/cv/CV-es.pdf" target="_blank" class="btn-small">VIEW</a> 
+                    <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/cv/CV-es.pdf" target="_blank" class="btn-small">VIEW</a> 
                     <a href="cv/CV-es.pdf" target="_blank" download="JoelPerpetua-CV-es"  class="btn-small"><i class="fas fa-file-download"></i></a>
                 </li>
             </ul>
@@ -64,13 +64,13 @@
                 <ul>
                     <li>
                         <span class="desc">High School degree on programming</span> 
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/Diploma-eestn7.pdf" target="_blank" class="btn-small">VIEW</a>
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/Diploma-eestn7.pdf" target="_blank" class="btn-small">VIEW</a>
                         <a href="certif/Diploma-eestn7.pdf" target="_blank" download="JoelPerpetua-Diploma-eestn7"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li>
 
                     <li>
                         <span class="desc">Cambridge First Certificate Exam </span>    
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/FCE.pdf" target="_blank" class="btn-small">VIEW</a> 
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/FCE.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/FCE.pdf" target="_blank" download="JoelPerpetua-FCE"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li>
                 </ul>
@@ -79,25 +79,25 @@
                 <ul>
                     <li>
                         <span class="desc">Deep Training Logos Hope 2019</span>    
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/LogosHope2019.pdf" target="_blank" class="btn-small">VIEW</a> 
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/LogosHope2019.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/LogosHope2019.pdf" target="_blank" download="JoelPerpetua-deep-LogosHope"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li>
 
                     <li>
                         <span class="desc">ArgenSIG 2019</span>    
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/ArgenSIG2019.pdf" target="_blank" class="btn-small">VIEW</a> 
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/ArgenSIG2019.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/ArgenSIG2019.pdf" target="_blank" download="JoelPerpetua-ArgenSIG2019"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li>
 
                     <li>
                         <span class="desc">NIC Argentina Internet Governance talks</span>    
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/NICar2019.pdf" target="_blank" class="btn-small">VIEW</a> 
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/NICar2019.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/NICar2019.pdf" target="_blank" download="JoelPerpetua-NICar2019"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li>
 
                     <li>
                         <span class="desc">Youth IGF Argentina 2018</span>    
-                        <a href="https://docs.google.com/viewerng/viewer?url=https://www.joeperpetua.me/res/certif/YouthIGF2018.pdf" target="_blank" class="btn-small">VIEW</a> 
+                        <a href="https://docs.google.com/viewer?url=https://joeper.myds.me/res/certif/YouthIGF2018.pdf" target="_blank" class="btn-small">VIEW</a> 
                         <a href="certif/YouthIGF2018.pdf" target="_blank" download="JoelPerpetua-YouthIGF2018"  class="btn-small"><i class="fas fa-file-download"></i></a>
                     </li> 
 

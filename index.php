@@ -19,10 +19,11 @@
 
     <!-- og -->
     <meta property="og:title" content="Joel Perpetua - Portfolio">
-    <meta property="og:image" content="https://joeperpetua.me/img/thumbnail-en.png">
+    <meta property="og:image" content="https://joeper.myds.me/img/thumbnail-en.png">
     <meta property="og:description" content="Hi, I am Joel and this is my online portfolio, here you will find all my projects and skills.">
-    <meta property="og:url" content="https://joeperpetua.me/">
+    <meta property="og:url" content="https://joeper.myds.me/">
 
+    <meta name="google-site-verification" content="M4IhjQxwpOjAYYRJwrCIKl3H71WfME13z5ovbgaGams" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156693045-1"></script>
     <script src="js/gtag.js"></script>
@@ -39,7 +40,12 @@
     <link rel="stylesheet"  href="css/style.css?v=1.0.4">
 
     <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-    <script type="text/javascript" src="js/lang.js"></script>
+    <script>
+        Weglot.initialize({
+            api_key: 'wg_61aaba9aa607405e6fccf508fe61cdf38'
+        });
+        
+    </script>
 </head>
 <body>
     
@@ -74,6 +80,10 @@
     
                         <div class="col s12 animated fadeInLeft">
                             <a href="#contact"><h3>CONTACT</h3></a>
+                        </div>
+
+                        <div class="col s12 animated fadeInRight">
+                            <a href="https://joeper.myds.me/res/"><h3>RESOURCES</h3></a>
                         </div>
                     </div>
     
@@ -164,7 +174,7 @@
                             <br>
     
                             <a class="waves-effect waves-light btn" href="https://github.com/joeperpetua/react-app"><i class="fab fa-github material-icons"></i></a>
-                            <!-- <a class="waves-effect waves-light btn" href="https://joeperpetua.me/projects/react-ecommerce"><i class="material-icons left"></i>view</a> -->
+                            <!-- <a class="waves-effect waves-light btn" href="https://joeper.myds.me/projects/react-ecommerce"><i class="material-icons left"></i>view</a> -->
                         </div>
                     </div>
 
@@ -345,7 +355,7 @@
                     </div>
 
                    
-                        <div class="container">
+                        <!-- <div class="container">
                             <script type="text/javascript"> //<![CDATA[
                                 var tlJsHost = ((window.location.protocol == "https:") ? "https://secure.trust-provider.com/" : "http://www.trustlogo.com/");
                                 document.write(unescape("%3Cscript src='" + tlJsHost + "trustlogo/javascript/trustlogo.js' type='text/javascript'%3E%3C/script%3E"));
@@ -355,7 +365,7 @@
                             <script language="JavaScript" type="text/javascript">
                                 TrustLogo("https://www.positivessl.com/images/seals/positivessl_trust_seal_md_167x42.png", "POSDV", "none");
                             </script>                            
-                        </div>
+                        </div> -->
                   
                 </footer> 
 

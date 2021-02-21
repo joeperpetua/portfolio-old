@@ -86,7 +86,7 @@ window.onload = function(){
 
 function setFormLang() {
     var sel = $('.wgcurrent');
-    if (sel != undefined) {
+    if (sel[0] != undefined) {
         var lang = sel[0].dataset.l;
     }
 
