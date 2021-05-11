@@ -21,9 +21,9 @@
 
     <!-- og -->
     <meta property="og:title" content="Joel Perpetua - Portfolio">
-    <meta property="og:image" content="https://joeperpetua.me/img/thumbnail-fr.png">
+    <meta property="og:image" content="https://joeperpetua.github.io/portfolio/img/thumbnail-fr.png">
     <meta property="og:description" content="Salut ! Je m'appelle Joel et c'est mon portfolio en ligne, ici vous pourrez trouver mes projets et mes connaisances.">
-    <meta property="og:url" content="https://joeperpetua.me/fr">
+    <meta property="og:url" content="https://joeperpetua.github.io/portfolio/fr">
 
 
     <!-- styles -->
@@ -158,7 +158,7 @@
                             <br>
     
                             <a class="waves-effect waves-light btn" href="https://github.com/joeperpetua/react-app"><i class="fab fa-github material-icons"></i></a>
-                            <a class="waves-effect waves-light btn" href="https://joeperpetua.me/projects/react-ecommerce"><i class="material-icons left"></i>voir</a>
+                            <a class="waves-effect waves-light btn" href="https://joeperpetua.github.io/portfolio/projects/react-ecommerce"><i class="material-icons left"></i>voir</a>
                         </div>
                     </div>
 

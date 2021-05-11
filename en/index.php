@@ -20,9 +20,9 @@
 
     <!-- og -->
     <meta property="og:title" content="Joel Perpetua - Portfolio">
-    <meta property="og:image" content="https://joeperpetua.me/img/thumbnail-en.png">
+    <meta property="og:image" content="https://joeperpetua.github.io/portfolio/img/thumbnail-en.png">
     <meta property="og:description" content="Hi, I am Joel and this is my online portfolio, here you will find all my projects and skills.">
-    <meta property="og:url" content="https://joeperpetua.me/en">
+    <meta property="og:url" content="https://joeperpetua.github.io/portfolio/en">
 
     <!-- styles -->
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -158,7 +158,7 @@
                             <br>
     
                             <a class="waves-effect waves-light btn" href="https://github.com/joeperpetua/react-app"><i class="fab fa-github material-icons"></i></a>
-                           <a class="waves-effect waves-light btn" href="https://joeperpetua.me/projects/react-ecommerce"><i class="material-icons left"></i>view</a>
+                           <a class="waves-effect waves-light btn" href="https://joeperpetua.github.io/portfolio/projects/react-ecommerce"><i class="material-icons left"></i>view</a>
                         </div>
                     </div>
 
