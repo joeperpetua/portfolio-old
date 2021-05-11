@@ -132,6 +132,12 @@ function setFormLang() {
 
 }
 
+function formatMailTo(){
+    let subject = document.querySelector('#subject').value;
+    let body = document.querySelector('#textarea').value;
+    subject && body ? window.open(`mailto:joelperpetua@gmail.com?subject=${subject}&&body=${body}`) : null;
+}
+
 //display button to up
  
 window.onscroll = function(){
